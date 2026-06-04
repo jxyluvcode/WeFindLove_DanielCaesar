@@ -52,7 +52,7 @@ export default function MusicPlayer() {
                         <img src="https://scontent.fbkk12-6.fna.fbcdn.net/v/t39.30808-6/310652120_424945413125687_7393200112796932410_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UP5jUrrpgMEQ7kNvwEbWWML&_nc_oc=Adk4iYwfGluUeDm8OyytOGZrm6dtvkejc9A42fmwwQEBbFl7SWeKdRWZyX4Sx4QD0Oc&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=5a-pEcx1okG8ScuGqy9dCg&oh=00_AfsY9P4v_vSXEy9SJX2Kzetpo8XtIHukNwEiBLjGdcA3rw&oe=69960E9F" alt="Album Art for UME - Saliva Bastards" className="w-full h-full object-cover" />
                     </div>
                     <div className="hidden sm:block">
-                        <p className="text-sm font-bold text-pink-900 truncate">UME - Saliva Bastards</p>
+                        <p className="text-sm font-bold text-pink-900 truncate">Daniel Caesar - We Find Love</p>
                         {/* <p className="text-xs text-pink-600 truncate">ศิลปินคนโปรด</p> */}
                     </div>
                 </div>
