@@ -1,17 +1,20 @@
 ---
-import Layout from "@/layouts/main.astro"
-import { Button } from "@/components/ui/button"
+import Layout from "@/layouts/main.astro";
+import ValentineCard from "@/components/EieiCard";
+import MusicPlayer from "@/components/MusicPlayer";
+
+const content = {
+  title: "Valentine Card 💘",
+};
 ---
 
-<Layout>
-  <div class="flex min-h-svh p-6">
-    <div class="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-      <div>
-        <h1 class="font-medium">Project ready!</h1>
-        <p>You may now add components and start building.</p>
-        <p>We've already added the button component for you.</p>
-        <Button client:load className="mt-2">Button</Button>
-      </div>
+<Layout content={content}>
+  <main
+    class="min-h-screen bg-linear-to-b from-[#ffd6e0] to-[#ff8fa3] py-8 pb-32"
+  >
+    <div class="space-y-12">
+      <ValentineCard client:visible />
     </div>
-  </div>
+    <MusicPlayer client:load />
+  </main>
 </Layout>
